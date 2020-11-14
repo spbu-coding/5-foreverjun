@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void other ()
+{
+    printf("Congratulations. You've completed the buffer overflow.\n");
+    exit(0);
+}
+
+void input ()
+{
+    printf("Enter to 'input' function\n");
+    char buf[10];
+    scanf("%s",buf);
+    printf("Was recorded in buffer: %s\n", buf);
+}
+
+int main ()
+{
+    input();
+    printf("Return to 'main' after 'input'\n");
+}
