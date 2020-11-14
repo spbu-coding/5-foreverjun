@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void other ()
 {
     printf("Congratulations. You've completed the buffer overflow.\n");
-    exit(0);
+    fflush(stdout);
 }
 
 void input ()
