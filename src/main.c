@@ -4,6 +4,7 @@ void other ()
 {
     printf("Congratulations. You've completed the buffer overflow.\n");
     fflush(stdout);
+    return;
 }
 
 void input ()
