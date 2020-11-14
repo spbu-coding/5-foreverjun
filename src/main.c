@@ -11,7 +11,7 @@ void input ()
 {
     printf("Enter to 'input' function\n");
     char buf[10];
-    scanf("%s",buf);
+    scanf("%s", buf);
     printf("Was recorded in buffer: %s\n", buf);
 }
 
